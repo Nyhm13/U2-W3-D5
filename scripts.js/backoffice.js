@@ -63,17 +63,17 @@ fetch(dataURL,{
 })
 .catch((error)=>{
     console.log(error)
-
-
+    
+ })
 })
-})
-// const formTwo=querySelector('#product-form')
+// const formTwo=document.getElementsByName('form')[0]   
 // const buttonFormReset = document.getElementById("reset");
 // buttonFormReset.addEventListener("click", function (e) {
 //   e.preventDefault();
 //   const confirmReset = confirm("Sei sicuro di voler resettare il modulo?");
 //   if (confirmReset) {
-//     formTwo.reset();
+//     form.reset();
 //   }
-// });     ho problemi con questo tasto reset, non riesco a farlo funzionare mi continua a dare errore 
+// });     
+// ho problemi con questo tasto reset, non riesco a farlo funzionare mi continua a dare errore 
 //  del tipo il form non esiste nel dom, ma non capisco il motivo per cui non lo trova
