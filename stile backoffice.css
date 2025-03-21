@@ -1,0 +1,29 @@
+.neroblu{
+     background: linear-gradient(90deg, rgba(2,0,36,1) 35%, rgba(16,16,153,1) 50%, rgba(3,7,184,1) 100%);;
+     color: white;
+}
+
+footer{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 35%, rgba(16,16,153,1) 50%, rgba(3,7,184,1) 100%);
+}
+/* Imposta un background image per il body */
+body {
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 35%, rgba(16,16,153,1) 50%, rgba(3,7,184,1) 100%);
+
+  }
+  
+  
+  .navbar {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 35%, rgba(16,16,153,1) 50%, rgba(3,7,184,1) 100%); 
+    color: white;
+  }
+  
+  
+  .navbar .nav-link,
+  .navbar .navbar-brand {
+    color: white !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #f8f9fa !important; 
+  }
